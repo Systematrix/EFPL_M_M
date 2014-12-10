@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include efpl_manufacturing *.css
+recursive-include efpl_manufacturing *.csv
+recursive-include efpl_manufacturing *.html
+recursive-include efpl_manufacturing *.ico
+recursive-include efpl_manufacturing *.js
+recursive-include efpl_manufacturing *.json
+recursive-include efpl_manufacturing *.md
+recursive-include efpl_manufacturing *.png
+recursive-include efpl_manufacturing *.py
+recursive-include efpl_manufacturing *.svg
+recursive-include efpl_manufacturing *.txt
+recursive-exclude efpl_manufacturing *.pyc
