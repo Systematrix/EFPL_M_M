@@ -7,5 +7,5 @@ def get_data():
 			"icon": "icon-book",
 			"type": "module",
 			"label": _("EFPL Manufacturing")
-		}
+		},
 	}
