@@ -58,6 +58,39 @@ def get_data():
 					"name":"DG Log Sheet",
 					"description": _("DG Log Sheet"),
 				},
+				
+			]
+		},
+		{
+			"label": _("Daily Calibration Checks"),
+			"icon": "icon-star",
+			"items": [
+			    {
+					"type": "doctype",
+					"name": "Calibration of Weighing Balances",
+					"description": _("Calibration of Weighing Balances"),
+				},
+				{
+					"type": "doctype",
+					"name": "Calibration of Refractometer",
+					"description": _("Calibration of Refractometer"),
+				},
+				{
+					"type": "doctype",
+					"name": "Standardization Of NaOH",
+					"label": _("Standardization Of NaOH"),
+					"description": _("Standardization Of 0.1 N NaOH Solution"),
+				},
+				{
+					"type": "doctype",
+					"name": "Calibration Of pH Meter",
+					"description": _("Calibration Of pH Meter"),
+				},
+				{
+					"type": "doctype",
+					"name": "Calibration Of Metal Detector",
+					"description": _("Calibration Of Metal Detector"),
+				},
 			]
 		},
 	]
