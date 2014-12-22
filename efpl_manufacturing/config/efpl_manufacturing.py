@@ -58,6 +58,11 @@ def get_data():
 					"name":"DG Log Sheet",
 					"description": _("DG Log Sheet"),
 				},
+					{
+					"type": "doctype",
+					"name":"Log Sheet For Metal Detector",
+					"description": _("Log Sheet For Metal Detector"),
+				},
 				
 			]
 		},
@@ -100,6 +105,11 @@ def get_data():
 					"type": "doctype",
 					"name": "Daily Sanitation Check List",
 					"description": _("Daily Sanitation Check List"),
+				},
+				{
+					"type": "doctype",
+					"name": "Sieves Checking Record",
+					"description": _("Sieves Checking Record"),
 				},
 			]
 		},
