@@ -91,6 +91,11 @@ def get_data():
 					"name": "Calibration Of Metal Detector",
 					"description": _("Calibration Of Metal Detector"),
 				},
+				{
+					"type": "doctype",
+					"name": "COnline Testing Report",
+					"description": _("COnline Testing Report"),
+				},
 			]
 		},
 	]
