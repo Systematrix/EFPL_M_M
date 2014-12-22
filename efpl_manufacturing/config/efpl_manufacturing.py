@@ -93,8 +93,13 @@ def get_data():
 				},
 				{
 					"type": "doctype",
-					"name": "COnline Testing Report",
-					"description": _("COnline Testing Report"),
+					"name": "Online Testing Report",
+					"description": _("Online Testing Report"),
+				},
+				{
+					"type": "doctype",
+					"name": "Daily Sanitation Check List",
+					"description": _("Daily Sanitation Check List"),
 				},
 			]
 		},
