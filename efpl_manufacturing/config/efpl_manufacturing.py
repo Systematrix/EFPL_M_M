@@ -31,6 +31,16 @@ def get_data():
 					"name": "Ripe Fruit Issue Slip",
 					"description": _(" Ripe Fruit Issue Slip"),
 				},
+				{
+					"type": "doctype",
+					"name": "Ingredient Addition Record",
+					"description": _("Ingredient Addition Record"),
+				},
+					{
+					"type": "doctype",
+					"name": "Log Sheet Of Crate Washer",
+					"description": _("Log Sheet Of Crate Washer"),
+				},
 			]
 		},
 		{
