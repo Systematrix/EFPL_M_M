@@ -7,10 +7,12 @@
  "custom": 0, 
  "docstatus": 0, 
  "doctype": "DocType", 
- "document_type": "Transaction", 
+ "document_type": "Document", 
  "fields": [
   {
    "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
    "fieldname": "product_name", 
    "fieldtype": "Data", 
    "hidden": 0, 
@@ -26,10 +28,13 @@
    "report_hide": 0, 
    "reqd": 0, 
    "search_index": 0, 
-   "set_only_once": 0
+   "set_only_once": 0, 
+   "unique": 0
   }, 
   {
    "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
    "fieldname": "batch_code", 
    "fieldtype": "Data", 
    "hidden": 0, 
@@ -45,10 +50,13 @@
    "report_hide": 0, 
    "reqd": 0, 
    "search_index": 0, 
-   "set_only_once": 0
+   "set_only_once": 0, 
+   "unique": 0
   }, 
   {
    "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
    "fieldname": "column_break_2", 
    "fieldtype": "Column Break", 
    "hidden": 0, 
@@ -63,10 +71,13 @@
    "report_hide": 0, 
    "reqd": 0, 
    "search_index": 0, 
-   "set_only_once": 0
+   "set_only_once": 0, 
+   "unique": 0
   }, 
   {
    "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
    "fieldname": "date", 
    "fieldtype": "Date", 
    "hidden": 0, 
@@ -82,10 +93,13 @@
    "report_hide": 0, 
    "reqd": 0, 
    "search_index": 0, 
-   "set_only_once": 0
+   "set_only_once": 0, 
+   "unique": 0
   }, 
   {
    "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
    "fieldname": "cw_section", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
@@ -102,10 +116,13 @@
    "report_hide": 0, 
    "reqd": 0, 
    "search_index": 0, 
-   "set_only_once": 0
+   "set_only_once": 0, 
+   "unique": 0
   }, 
   {
    "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
    "fieldname": "crate_washer_details", 
    "fieldtype": "Table", 
    "hidden": 0, 
@@ -122,10 +139,13 @@
    "report_hide": 0, 
    "reqd": 0, 
    "search_index": 0, 
-   "set_only_once": 0
+   "set_only_once": 0, 
+   "unique": 0
   }, 
   {
    "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
    "fieldname": "other_info", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
@@ -141,10 +161,13 @@
    "report_hide": 0, 
    "reqd": 0, 
    "search_index": 0, 
-   "set_only_once": 0
+   "set_only_once": 0, 
+   "unique": 0
   }, 
   {
    "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
    "fieldname": "note", 
    "fieldtype": "HTML", 
    "hidden": 0, 
@@ -161,10 +184,13 @@
    "report_hide": 0, 
    "reqd": 0, 
    "search_index": 0, 
-   "set_only_once": 0
+   "set_only_once": 0, 
+   "unique": 0
   }, 
   {
    "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
    "fieldname": "authorised_by", 
    "fieldtype": "Data", 
    "hidden": 0, 
@@ -180,17 +206,20 @@
    "report_hide": 0, 
    "reqd": 0, 
    "search_index": 0, 
-   "set_only_once": 0
+   "set_only_once": 0, 
+   "unique": 0
   }, 
   {
    "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
    "fieldname": "cb6", 
    "fieldtype": "Column Break", 
    "hidden": 0, 
    "ignore_user_permissions": 0, 
    "in_filter": 0, 
    "in_list_view": 0, 
-   "label": "cb6", 
+   "label": "", 
    "no_copy": 0, 
    "permlevel": 0, 
    "precision": "", 
@@ -199,10 +228,13 @@
    "report_hide": 0, 
    "reqd": 0, 
    "search_index": 0, 
-   "set_only_once": 0
+   "set_only_once": 0, 
+   "unique": 0
   }, 
   {
    "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
    "fieldname": "remark", 
    "fieldtype": "Text", 
    "hidden": 0, 
@@ -218,17 +250,30 @@
    "report_hide": 0, 
    "reqd": 0, 
    "search_index": 0, 
-   "set_only_once": 0
+   "set_only_once": 0, 
+   "unique": 0
   }, 
   {
+   "allow_on_submit": 0, 
+   "bold": 0, 
+   "collapsible": 0, 
    "fieldname": "amended_from", 
    "fieldtype": "Link", 
+   "hidden": 0, 
+   "ignore_user_permissions": 0, 
+   "in_filter": 0, 
+   "in_list_view": 0, 
    "label": "Amended From", 
    "no_copy": 1, 
    "options": "Log Sheet Of Crate Washer", 
    "permlevel": 0, 
    "print_hide": 1, 
-   "read_only": 1
+   "read_only": 1, 
+   "report_hide": 0, 
+   "reqd": 0, 
+   "search_index": 0, 
+   "set_only_once": 0, 
+   "unique": 0
   }
  ], 
  "hide_heading": 0, 
@@ -239,7 +284,7 @@
  "is_submittable": 1, 
  "issingle": 0, 
  "istable": 0, 
- "modified": "2014-12-31 12:17:29.521189", 
+ "modified": "2015-11-06 15:02:07.276374", 
  "modified_by": "Administrator", 
  "module": "EFPL Manufacturing", 
  "name": "Log Sheet Of Crate Washer", 
@@ -254,6 +299,7 @@
    "delete": 1, 
    "email": 0, 
    "export": 0, 
+   "if_owner": 0, 
    "import": 0, 
    "permlevel": 0, 
    "print": 0, 
@@ -261,6 +307,7 @@
    "report": 0, 
    "role": "All", 
    "set_user_permissions": 0, 
+   "share": 0, 
    "submit": 1, 
    "write": 1
   }
